@@ -92,7 +92,7 @@ jobs:
           cp -r api/. public/
           cp -r img/. public/icons/
           cp robots.txt public/
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: public/
       - name: Deploy to GitHub Pages
