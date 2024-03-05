@@ -12,5 +12,5 @@ group :tests, optional: true do
 end
 
 gem 'algolia', '~> 2.3'
-gem 'dotenv', '~> 2.8'
+gem 'dotenv', '~> 3.0'
 gem 'parallel', '~> 1.22'
